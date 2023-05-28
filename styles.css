@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 4px solid red; */
+    width: 100vw;
+    /* height: 100vh; */
+    overflow-x: hidden;
+}
+
+header{
+    /* border: 3px solid green; */
+    width: 100%;
+    height: 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_nav{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_nav img{
+  width: 13%;
+  height: 50%;
+}
+.left_nav a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: black;
+
+}
+.right_nav{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.right_nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+main{
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+}
+.header_img img{
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+}
+.header_img_left {
+    /* border: 2px solid red; */
+    height: 160px;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+.header_img_left h1{
+    margin-bottom:20px;
+    font-size: 2.315rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.header_img_left button{
+    margin-top: 18px;
+    padding: 9px 10px;
+    font-size: 14px;
+    background-color: rgb(17, 55, 126);
+    color: white;
+    opacity: 0.9;
+    border: none;
+    border-radius: 3px;
+}
+
+.header_img_left p {
+    font-size: 16px;
+}
+
+.main_blank{
+    /* border: 4px solid blue; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.main_blank_a th a{
+/* border: 2px solid red; */
+margin: 0px 30px;
+color: rgb(10, 103, 140);
+}
+
+.main_games{
+    /* border: 4px solid green; */
+    width: 100%;
+    height: 80vh;
+}
+
+.main_games table{
+    padding: 80px 25px ;
+}
+
+
+.main_games_tr th{
+    /* border: 2px solid red; */
+    padding: 0px 5px;
+}
+
+.main_games_tr2 h2, .main_games_tr3 p {
+    top: 0%;
+    text-align: start;
+    padding: 15px 0px;
+}
+
+.main_games_tr3 p{
+    font-size: 15px;
+}
+
+.music_img{
+    padding: 0px 70px;
+}
+.music_img img{
+    width: 100%;
+}
+
